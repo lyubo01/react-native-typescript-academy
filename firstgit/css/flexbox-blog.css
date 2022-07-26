@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+  }
+
+header {
+    background-color: #249ded;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+  }
+  body{
+    margin: 0;
+  }
+.topnav{
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow:row wrap;
+}
+  .topnav a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: black;
+    color: white;
+  }
+  #main {
+    
+    background: #A6D1E6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+ #europe{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  
+  article {
+    
+    padding: 20px;
+    width: 100%;
+    background-color: #E8F9FD;
+    
+  }
+  article .blog-text {
+    width: 60%;
+    padding-left: 15em;
+    
+    
+}
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  
+  footer {
+    
+    width: 100%;
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    
+  }
+  main{
+    padding: 0 20px;
+}
+  
+ 
+  
+ 
+  
+  #lqva-snimka{
+   
+    width: 45%;
+  }
+  #treta{
+    
+    width: 45%;
+  }
+  #dqsna{
+    
+    width: 45%;
+  }
+  #friends{
+    
+    width: 45%;
+  }
+  aside {
+    
+    width: 10%;
+    
+  }
+  .container{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+    article h1{
+        flex: 100%;
+    }
+  
+  
+  @media (max-width: 880px) {
+    .topnav a{
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .topnav{
+        text-align: center;
+        overflow: hidden;
+        background-color: white;
+        display: flex;
+        flex-flow:column ;
+    }
+  
+    #articles {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .aside{
+      display: none;
+    }
+    .desen-aside{
+      display: none;
+    }
+    .lqv-aside{
+      display: none;
+    }
+    .first-aside{
+      display: none;
+    }
+    #lqva-snimka{
+      float: center;
+      width: 90%;
+    }
+    #treta{
+      float:center;
+      width: 90%;
+    }
+    #dqsna{
+      float: center;
+      width: 90%;
+    }
+    #friends{
+      float: center;
+      width: 90%;
+    }
+    #europe{
+        margin-left: 0%;
+        margin-right: 0%;
+      }
+      
+  }
+  
