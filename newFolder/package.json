@@ -1,0 +1,9 @@
+{
+  "name": "classes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "description": "ECMAscript 6+",
+  "repository": "https://github.com/lyubo01/react-native-typescript-academy/tree/main/firstgit",
+  "author": "Lyuboslav Yordanov"
+}
