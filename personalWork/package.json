@@ -1,0 +1,13 @@
+{
+  "name": "da",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "repository": "https://www.googleapis.com/books/v1/volumes?q=react+native&maxResults=15",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
