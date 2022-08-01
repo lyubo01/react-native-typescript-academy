@@ -1,0 +1,71 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "content": "JSON Server is easy ...",
+      "tags": [
+        "json-server",
+        "rest",
+        "api"
+      ],
+      "imageUrl": "https://miro.medium.com/max/400/1*tX7DC-HhKR2blBSbf3xvtQ.jpeg",
+      "authorId": "1"
+    },
+    {
+      "id": 2,
+      "title": "Client Super advanced",
+      "content": "Class syntax in ES6+ is very neat ...",
+      "tags": [
+        "json-server",
+        "rest",
+        "api"
+      ],
+      "imageUrl": "https://miro.medium.com/max/400/1*tX7DC-HhKR2blBSbf3xvtQ.jpeg",
+      "authorId": "1"
+    },
+    {
+      "title": "REST Client Super Advanced",
+      "content": "REST Client is easy ...",
+      "tags": [
+        "rest",
+        "rest-client",
+        "http",
+        "crud"
+      ],
+      "imageUrl": "https://humao.gallerycdn.vsassets.io/extensions/humao/rest-client/0.25.0/1655829100763/Microsoft.VisualStudio.Services.Icons.Default",
+      "authorId": "1",
+      "id": 3
+    },
+    {
+      "title": "Using REST Client",
+      "content": "REST Client is easy ...",
+      "tags": [
+        "rest",
+        "rest-client",
+        "http",
+        "crud"
+      ],
+      "imageUrl": "https://humao.gallerycdn.vsassets.io/extensions/humao/rest-client/0.25.0/1655829100763/Microsoft.VisualStudio.Services.Icons.Default",
+      "authorId": 1,
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastname": "Smith",
+      "username": "john",
+      "password": "john123",
+      "role": "admin"
+    }
+  ]
+}

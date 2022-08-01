@@ -1,0 +1,15 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    width: auto;
+    height: 400px;
+}
+figcaption{
+    text-align: center;
+    font-size: 2em;
+}
+#results{
+    display: flex;
+    flex-flow: row wrap;
+}

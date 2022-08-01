@@ -16,4 +16,4 @@ const Fib =  (n) => ({
         }
     }
 });
-console.log([...Fib(20)]);
+console.log([...Fib(n)]);

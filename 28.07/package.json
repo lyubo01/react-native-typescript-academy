@@ -1,0 +1,13 @@
+{
+  "name": "28.07",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/lyubo01/react-native-typescript-academy",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

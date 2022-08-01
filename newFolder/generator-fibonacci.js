@@ -1,10 +1,12 @@
-var fibonacci = { [Symbol.iterator]: function*() {
-    var pre = 0, cur = 1;
+const fibonacci =  (n) => ({
+    [Symbol.iterator]: () => {
+    let pre = 0;
+    let cur = 1;
     for (let i = 0; i < 16; i++) { var temp = pre;
-    pre = cur;
-    cur += temp;
-    yield cur; }
-    } };
-    for (var n of fibonacci) {
-    console.log(n);
+        pre = cur;
+        cur += temp;
+        if (cur < n){yield cur;} 
     }
+    }   
+});
+console.log([...fibonacci(n)]);

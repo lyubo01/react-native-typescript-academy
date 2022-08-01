@@ -122,7 +122,10 @@ header {
     article h1{
         flex: 100%;
     }
-    
+    #searchMe{
+      padding-right:2em;
+      margin-left: 60em;
+    }
    
   @media (max-width: 880px) {
     .topnav a{
