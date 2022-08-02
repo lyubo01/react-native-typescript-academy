@@ -1,63 +1,30 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "content": "JSON Server is easy ...",
+      "title": "Milan",
+      "authorId": "1899",
+      "content": "forza milan",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/1200px-Logo_of_AC_Milan.svg.png",
       "tags": [
-        "json-server",
-        "rest",
-        "api"
+        "ac",
+        "milan",
+        "1899"
       ],
-      "imageUrl": "https://miro.medium.com/max/400/1*tX7DC-HhKR2blBSbf3xvtQ.jpeg",
-      "authorId": "1"
+      "id": 2
     },
     {
-      "id": 2,
-      "title": "Client Super advanced",
-      "content": "Class syntax in ES6+ is very neat ...",
+      "title": "da",
+      "authorId": "da",
+      "content": "da",
+      "imageUrl": "https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png",
       "tags": [
-        "json-server",
-        "rest",
-        "api"
+        "da",
+        "as"
       ],
-      "imageUrl": "https://miro.medium.com/max/400/1*tX7DC-HhKR2blBSbf3xvtQ.jpeg",
-      "authorId": "1"
-    },
-    {
-      "title": "REST Client Super Advanced",
-      "content": "REST Client is easy ...",
-      "tags": [
-        "rest",
-        "rest-client",
-        "http",
-        "crud"
-      ],
-      "imageUrl": "https://humao.gallerycdn.vsassets.io/extensions/humao/rest-client/0.25.0/1655829100763/Microsoft.VisualStudio.Services.Icons.Default",
-      "authorId": "1",
-      "id": 3
-    },
-    {
-      "title": "Using REST Client",
-      "content": "REST Client is easy ...",
-      "tags": [
-        "rest",
-        "rest-client",
-        "http",
-        "crud"
-      ],
-      "imageUrl": "https://humao.gallerycdn.vsassets.io/extensions/humao/rest-client/0.25.0/1655829100763/Microsoft.VisualStudio.Services.Icons.Default",
-      "authorId": 1,
       "id": 4
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
+  "comments": [],
   "users": [
     {
       "id": 1,
