@@ -32,7 +32,7 @@ class BlogApiClientImpl implements BlogsApiClient {
     }
 
     async updatePost(post: Post): Promise<Post> {
-        return this.handleRequest(API_BASE_URL, {
+        return this.handleRequest(`${API_BASE_URL}/${post.id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'
@@ -45,7 +45,6 @@ class BlogApiClientImpl implements BlogsApiClient {
         return this.handleRequest(`${API_BASE_URL}/${id}`, {
             method: 'DELETE'
         });
-        
     }
 
     private async handleRequest(url: string, options?: RequestInit) {
