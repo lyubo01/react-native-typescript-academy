@@ -17,8 +17,10 @@
         <a href="#">Most viewed ever!</a>
         <a href="#">Random ones!</a>
       </nav>
-      <input id="search" type="text" placeholder="Search.." ></input>
-      <button type="submit"id="clickMe">Find Book</button>
+      <form class="example" onsubmit="handleSubmit(event)">
+      <input type="text" placeholder="Search.." id="search" name="search"></input>
+      <button id="clickMe" type="submit">Find Book</button>
+      </form>
    <div id="results"></div>
 </body>
 </html>
