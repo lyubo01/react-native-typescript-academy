@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "title": "dasdasd",
+      "content": "fdasfdsf",
+      "tags": [
+        "da",
+        "asd"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
+      "authorId": 23123,
+      "id": 1
+    }
+  ],
+  "comments": [],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Smith",
+      "username": "john",
+      "password": "john123",
+      "role": "ADMIN"
+    }
+  ]
+}
