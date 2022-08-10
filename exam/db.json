@@ -10,6 +10,32 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
       "authorId": 23123,
       "id": 1
+    },
+    {
+      "title": "Using REST Client",
+      "content": "REST Client is easy ...",
+      "tags": [
+        "rest",
+        "rest-client",
+        "http",
+        "crud"
+      ],
+      "imageUrl": "https://humao.gallerycdn.vsassets.io/extensions/humao/rest-client/0.25.0/1655829100763/Microsoft.VisualStudio.Services.Icons.Default",
+      "authorId": 1,
+      "id": 2
+    },
+    {
+      "title": "Using REST Client",
+      "content": "REST Client is easy ...",
+      "tags": [
+        "rest",
+        "rest-client",
+        "http",
+        "crud"
+      ],
+      "imageUrl": "https://humao.gallerycdn.vsassets.io/extensions/humao/rest-client/0.25.0/1655829100763/Microsoft.VisualStudio.Services.Icons.Default",
+      "authorId": 1,
+      "id": 3
     }
   ],
   "comments": [],

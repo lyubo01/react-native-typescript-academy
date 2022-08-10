@@ -1,19 +1,19 @@
-export const generatedId = function () {
-  const id = [] ;
-  while (id.length < 1) {
-    const r = Math.floor(Math.random() * 10000) + 1;
-    if (id.indexOf(r) === -1) {
-      id.push(r);
-    }
-  }
-  console.log("your Id is : " + id);
-  //ID.document.getElementById("personId").innerHTML = "Personal Id : " + numberId;
-  
-};
-generatedId();
+const logInButton = document.getElementById("loginButton") as HTMLButtonElement;
+const usernameLoggedIn = document.getElementById("usernameLoggedIn") as HTMLElement;
+const usernameRegister = document.getElementById("usernameRegister") as HTMLElement;
+const passwordRegister = document.getElementById("passwordRegister") as HTMLElement;
+const loggedInContent = document.getElementById("loggedInContent") as HTMLElement;
+const article = document.getElementById("login") as HTMLElement;
 
-function addInnerHtml(){
-  const article = document.getElementById("login") as HTMLElement;
+ function loggedIn(){
+loggedInContent.innerHTML =`
+<div id="loggedInContent">
+<span>Congratulations, ${usernameLoggedIn} you logged in successfully!</span>
+</div>
+`
+}
+ function addInnerHtml(){
+  
   article.innerHTML = `
   <div class="section"></div>
   <main>
@@ -27,7 +27,7 @@ function addInnerHtml(){
       <div class="container">
         <div class="z-depth-1 grey lighten-4 row" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
 
-          <form class="col s12" method="post">
+          <form class="col s12" method="post" id='usernameLoggedIn'>
             <div class='row'>
               <div class='col s12'>
               </div>
@@ -35,8 +35,8 @@ function addInnerHtml(){
 
             <div class='row'>
               <div class='input-field col s12'>
-                <input class='validate' type='email' name='email' id='email' />
-                <label for='email'>Enter your email</label>
+                <input class='validate' type='text' name='username'  />
+                <label for='usernameLoggedIn'>Enter your username</label>
               </div>
             </div>
 
@@ -45,15 +45,13 @@ function addInnerHtml(){
                 <input class='validate' type='password' name='password' id='password' />
                 <label for='password'>Enter your password</label>
               </div>
-              <label style='float: right;'>
-								<a class='pink-text' href='#!'><b>Forgot Password?</b></a>
-							</label>
+              
             </div>
 
             <br />
             <center>
               <div class='row'>
-                <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect indigo'>Login</button>
+                <button id="loginButton" type='submit' name='btn_login' class='col s12 btn btn-large waves-effect indigo'>Login</button>
               </div>
             </center>
           </form>
@@ -67,9 +65,10 @@ function addInnerHtml(){
   </main>
   `
   article.querySelector("#buton")?.addEventListener("click", () => addRegisterForm())
+  article.querySelector("#logInButton")?.addEventListener("click", () => loggedIn())
 }
 
-function addRegisterForm(){
+async function addRegisterForm(){
   const article1 = document.getElementById("index-banner") as HTMLElement;
   article1.innerHTML = `
   <div class="section no-pad-bot" id="banner">
@@ -149,7 +148,7 @@ function addRegisterForm(){
                            </select>
                          </div>
                        </div>
-                    <button class="btn waves-effect waves-light" type="submit" name="submit" id="submit">Submit
+                    <button class="btn waves-effect waves-light" type="submit" name="submit" id="submit">Register
                         <i class="material-icons right">send</i>
                     </button>
                     <div id="personId">
@@ -167,4 +166,4 @@ function addRegisterForm(){
 }
 
 
-addInnerHtml();
+addInnerHtml()
