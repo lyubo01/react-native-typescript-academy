@@ -1,0 +1,13 @@
+{ 
+  "comments": [],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Smith",
+      "username": "john",
+      "password": "john123"
+      
+    }
+  ]
+}
