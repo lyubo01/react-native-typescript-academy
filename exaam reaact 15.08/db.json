@@ -1,0 +1,35 @@
+{
+  "todos": [
+    {
+      "text": "Better todo title",
+      "deadline": "2022-08-30",
+      "status": 1,
+      "id": 6
+    },
+    {
+      "text": "wqwqewqewqewq",
+      "deadline": "2022-08-16T",
+      "status": 1,
+      "id": 8
+    },
+    {
+      "text": "aasdasd",
+      "deadline": "3333-03-12",
+      "status": 1,
+      "id": 9
+    },
+    {
+      "text": "dsfs",
+      "deadline": "3333-03-12",
+      "status": 1,
+      "id": 10
+    },
+    {
+      "text": "asdasd",
+      "deadline": "2331-03-31",
+      "status": 1,
+      "id": 11
+    }
+  ]
+}
+  
